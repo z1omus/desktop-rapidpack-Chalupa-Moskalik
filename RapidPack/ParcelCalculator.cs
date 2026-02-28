@@ -18,4 +18,27 @@ namespace RapidPack;
             _express = express;
             _type = type;
         }
+
+        public string? IsOverweight()
+        {
+            if (_weight > 30)
+                return ("Za duża waga!!!!!!!");
+            return null;
+        }
+
+        public double GetPrice()
+        {
+            double price = 10 + (_weight * 2);
+
+            if ((_width + _length + _height) > 150)
+                price *= 1.5;
+            if (_express)
+                price += 15;
+            if (_type == "Fragile")
+                price += 10;
+            if (_type == "Pallet")
+                price = 100;
+            
+            return price;
+        }
     }
