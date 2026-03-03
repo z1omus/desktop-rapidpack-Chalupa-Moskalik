@@ -5,5 +5,22 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="RapidPack.MainWindow"
         Title="RapidPack">
-    Welcome to Avalonia!
+    <StackPanel>
+        <TextBlock>Waga</TextBlock>
+        <TextBox x:Name="Weight"/>
+        <TextBlock>wysokosc</TextBlock>
+        <TextBox x:Name="Height"/>
+        <TextBlock>szerokosc</TextBlock>
+        <TextBox x:Name="Width"/>
+        <TextBlock>dlugosc</TextBlock>
+        <TextBox x:Name="Length"/>
+        
+        <ComboBox x:Name="Type">
+            <ComboBoxItem>Standard</ComboBoxItem>
+            <ComboBoxItem>Ostrożnie</ComboBoxItem>
+            <ComboBoxItem>Paleta</ComboBoxItem>
+        </ComboBox>
+        
+        <Button Name="SubmitButton" Content="Wyślij" Click="SubmitButton_Click"/>
+    </StackPanel>
 </Window>
