@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapidPack", "RapidPack\RapidPack.csproj", "{6CEFAE82-AA0E-4D5E-872C-A64882249498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CEFAE82-AA0E-4D5E-872C-A64882249498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEFAE82-AA0E-4D5E-872C-A64882249498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEFAE82-AA0E-4D5E-872C-A64882249498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEFAE82-AA0E-4D5E-872C-A64882249498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
