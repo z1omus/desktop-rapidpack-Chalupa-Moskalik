@@ -2,8 +2,28 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:rapidPack="clr-namespace:RapidPack"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="RapidPack.MainWindow"
         Title="RapidPack">
-    Welcome to Avalonia!
+    <StackPanel>
+        <TextBlock>Waga</TextBlock>
+        <TextBox x:Name="Weight" TextChanging="Weight_OnTextChanging"/>
+        <TextBlock x:Name="Overweight"/>
+        <TextBlock>wysokosc</TextBlock>
+        <TextBox x:Name="Height"/>
+        <TextBlock>szerokosc</TextBlock>
+        <TextBox x:Name="Width"/>
+        <TextBlock>dlugosc</TextBlock>
+        <TextBox x:Name="Length"/>
+        <CheckBox x:Name="Express">Czy paczka ma być ekspresowo dostarczona?</CheckBox>
+        <ComboBox x:Name="Type">
+            <ComboBoxItem>Standard</ComboBoxItem>
+            <ComboBoxItem>Ostrożnie</ComboBoxItem>
+            <ComboBoxItem>Paleta</ComboBoxItem>
+        </ComboBox>
+        
+        <Button x:Name="SubmitButton" Content="Wyślij" Click="SubmitButton_Click"/>
+        <TextBlock x:Name="Summary"/>
+    </StackPanel>
 </Window>
