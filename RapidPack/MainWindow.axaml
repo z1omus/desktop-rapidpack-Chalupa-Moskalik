@@ -8,14 +8,15 @@
         Title="RapidPack">
     <StackPanel>
         <TextBlock>Waga</TextBlock>
-        <TextBox x:Name="Weight"/>
+        <TextBox x:Name="Weight" TextChanging="Weight_OnTextChanging"/>
+        <TextBlock x:Name="Overweight"/>
         <TextBlock>wysokosc</TextBlock>
         <TextBox x:Name="Height"/>
         <TextBlock>szerokosc</TextBlock>
         <TextBox x:Name="Width"/>
         <TextBlock>dlugosc</TextBlock>
         <TextBox x:Name="Length"/>
-        <CheckBox x:Name="Express"/>
+        <CheckBox x:Name="Express">Czy paczka ma być ekspresowo dostarczona?</CheckBox>
         <ComboBox x:Name="Type">
             <ComboBoxItem>Standard</ComboBoxItem>
             <ComboBoxItem>Ostrożnie</ComboBoxItem>
