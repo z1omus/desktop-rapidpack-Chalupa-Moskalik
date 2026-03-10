@@ -8,12 +8,12 @@ public class ParcelCalculator
 
     public bool IsOverweight(double parsedWeight, string type)
     {
-        if (parsedWeight > 30 && type !="Paleta")
+        if(parsedWeight > 30 && type !="Paleta")
             return true;
         return false;
     }
 
-    public (double, string) GetPrice(double weight,double length,double height, double width, string express, string type)
+    public (double?, string) GetPrice(double weight,double length,double height, double width, string express, string type)
     {
         if(!IsOverweight(weight, type)){
             string summary = "";
@@ -47,6 +47,6 @@ public class ParcelCalculator
             return (price, summary);
         }
 
-        return (0, "Podano za wysoką wagę. Maksymalna waga wynosi 30 kg, chyba, że zamawia się paletę");
+        return (null, "Za wysoka waga!!!!!!!");
     }
 }
