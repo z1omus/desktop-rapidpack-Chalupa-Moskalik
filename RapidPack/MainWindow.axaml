@@ -26,7 +26,7 @@
         
         <TextBlock HorizontalAlignment="Center" Foreground="black">wysokosc</TextBlock>
         
-        <TextBox x:Name="Height" HorizontalAlignment="Center" Foreground="Azure" Padding="0,0,0,15"/>
+        <TextBox x:Name="Height" HorizontalAlignment="Center" Foreground="Azure"/>
         
         <TextBlock HorizontalAlignment="Center" Foreground="Black">szerokosc</TextBlock>
         
