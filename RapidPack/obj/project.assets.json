@@ -1369,19 +1369,19 @@
     ]
   },
   "packageFolders": {
-    "/home/mania/.nuget/packages/": {}
+    "/home/dawidm/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mania/RiderProjects/RapidPack/RapidPack/RapidPack.csproj",
+      "projectUniqueName": "/home/dawidm/RiderProjects/desktop-rapidpack-Chalupa-Moskalik/RapidPack/RapidPack.csproj",
       "projectName": "RapidPack",
-      "projectPath": "/home/mania/RiderProjects/RapidPack/RapidPack/RapidPack.csproj",
-      "packagesPath": "/home/mania/.nuget/packages/",
-      "outputPath": "/home/mania/RiderProjects/RapidPack/RapidPack/obj/",
+      "projectPath": "/home/dawidm/RiderProjects/desktop-rapidpack-Chalupa-Moskalik/RapidPack/RapidPack.csproj",
+      "packagesPath": "/home/dawidm/.nuget/packages/",
+      "outputPath": "/home/dawidm/RiderProjects/desktop-rapidpack-Chalupa-Moskalik/RapidPack/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/mania/.nuget/NuGet/NuGet.Config"
+        "/home/dawidm/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -1448,7 +1448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/mania/.dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/home/dawidm/.dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

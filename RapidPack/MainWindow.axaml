@@ -5,25 +5,49 @@
         xmlns:rapidPack="clr-namespace:RapidPack"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="RapidPack.MainWindow"
-        Title="RapidPack">
+        Title="RapidPack"
+        Background="Bisque">
     <StackPanel>
-        <TextBlock>Waga</TextBlock>
-        <TextBox x:Name="Weight" TextChanging="Weight_OnTextChanging"/>
-        <TextBlock x:Name="Overweight"/>
-        <TextBlock>wysokosc</TextBlock>
-        <TextBox x:Name="Height"/>
-        <TextBlock>szerokosc</TextBlock>
-        <TextBox x:Name="Width"/>
-        <TextBlock>dlugosc</TextBlock>
-        <TextBox x:Name="Length"/>
-        <CheckBox x:Name="Express">Czy paczka ma być ekspresowo dostarczona?</CheckBox>
-        <ComboBox x:Name="Type">
+        <TextBlock Foreground="Black" FontSize="40" HorizontalAlignment="Center" Padding="50">RapidPack</TextBlock>
+        <TextBlock Foreground="Black" HorizontalAlignment="Center" Padding="10" FontSize="30">Dostosuj swoją dostawę</TextBlock>
+        <Border Background="SaddleBrown"
+                BorderBrush="Black"
+                BorderThickness="2"
+                CornerRadius="10"
+                Padding="10"
+                Width="805">
+        <StackPanel Background="SaddleBrown" Width="800">
+         
+            <TextBlock HorizontalAlignment="Center" Foreground="Black">Waga</TextBlock>
+        
+        <TextBox x:Name="Weight" TextChanging="Weight_OnTextChanging" HorizontalAlignment="Center" Foreground="azure"/>
+        
+        <TextBlock x:Name="Overweight" HorizontalAlignment="Center" Foreground="Black" FontSize="15" Padding="5"/>
+        
+        <TextBlock HorizontalAlignment="Center" Foreground="black">wysokosc</TextBlock>
+        
+        <TextBox x:Name="Height" HorizontalAlignment="Center" Foreground="Azure" Padding="0,0,0,15"/>
+        
+        <TextBlock HorizontalAlignment="Center" Foreground="Black">szerokosc</TextBlock>
+        
+        <TextBox x:Name="Width" HorizontalAlignment="Center" Foreground="azure"/>
+        
+        <TextBlock HorizontalAlignment="Center" Foreground="Black">dlugosc</TextBlock>
+        
+        <TextBox x:Name="Length" HorizontalAlignment="Center" Foreground="azure"/>
+        
+        <CheckBox x:Name="Express" HorizontalAlignment="Center" Foreground="Black">Czy paczka ma być ekspresowo dostarczona?</CheckBox>
+        
+        <ComboBox x:Name="Type" HorizontalAlignment="Center">
             <ComboBoxItem>Standard</ComboBoxItem>
             <ComboBoxItem>Ostrożnie</ComboBoxItem>
             <ComboBoxItem>Paleta</ComboBoxItem>
         </ComboBox>
         
-        <Button x:Name="SubmitButton" Content="Wyślij" Click="SubmitButton_Click"/>
-        <TextBlock x:Name="Summary"/>
+        <Button x:Name="SubmitButton" Content="Wyślij" Click="SubmitButton_Click" HorizontalAlignment="Center" Margin="10"/>
+        <TextBlock x:Name="Summary" HorizontalAlignment="Center" Background="black"/>
+        </StackPanel>
+        </Border>
+        
     </StackPanel>
 </Window>
