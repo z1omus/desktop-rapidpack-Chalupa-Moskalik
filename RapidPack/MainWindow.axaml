@@ -52,7 +52,7 @@
         </ComboBox>
         
         <Button x:Name="SubmitButton" Content="Wyślij" Click="SubmitButton_Click" HorizontalAlignment="Center" Margin="10"/>
-        <TextBlock x:Name="Summary" HorizontalAlignment="Center" Background="black"/>
+        <TextBlock x:Name="Summary" HorizontalAlignment="Center" Background="SaddleBrown"/>
         </StackPanel>
         </Border>
         
