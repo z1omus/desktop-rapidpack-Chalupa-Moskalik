@@ -3,4 +3,9 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::C31FC36A-1936-4E48-9EF8-4BB605DAECA4::net10.0::RapidPack.Tests.MainWindowTests.CreateWindow_ShouldCreateANewWindow&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=930dd734_002Ddc10_002D42b9_002D9a66_002Df4b065ad8706/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ShouldShowError_WhenOverweght" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::C31FC36A-1936-4E48-9EF8-4BB605DAECA4::net10.0::RapidPack.Tests.MainWindowTests.ShouldShowError_WhenOverweght&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
